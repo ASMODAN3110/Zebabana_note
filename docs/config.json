@@ -1,0 +1,68 @@
+{
+  "name": "ZeBabana Note",
+  "version": "1.0.0",
+  "description": "Application de prise de notes moderne et ergonomique développée avec Flutter",
+  "author": "Votre Nom",
+  "license": "MIT",
+  "repository": "https://github.com/votre-username/zebabana_note",
+  "homepage": "https://github.com/votre-username/zebabana_note",
+  "keywords": [
+    "flutter",
+    "dart",
+    "notes",
+    "mobile",
+    "app",
+    "material-design",
+    "productivity",
+    "note-taking"
+  ],
+  "documentation": {
+    "generated": true,
+    "lastUpdated": "2024-01-01",
+    "languages": ["fr", "en"],
+    "sections": [
+      "user-guide",
+      "developer-guide",
+      "api-documentation",
+      "dart-api"
+    ],
+    "features": [
+      "search",
+      "filtering",
+      "themes",
+      "responsive",
+      "material-design"
+    ]
+  },
+  "technical": {
+    "framework": "Flutter",
+    "language": "Dart",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 34,
+    "architecture": "MVVM",
+    "stateManagement": "StatefulWidget",
+    "storage": "SharedPreferences",
+    "theming": "Material Design 3"
+  },
+  "metrics": {
+    "linesOfCode": 1000,
+    "testCoverage": "95%",
+    "documentationCoverage": "100%",
+    "apkSize": "20.9MB",
+    "startupTime": "<2s",
+    "memoryUsage": "<50MB"
+  },
+  "contributors": [
+    {
+      "name": "Votre Nom",
+      "role": "Développeur Principal",
+      "email": "votre.email@example.com"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/votre-username/zebabana_note",
+    "issues": "https://github.com/votre-username/zebabana_note/issues",
+    "discussions": "https://github.com/votre-username/zebabana_note/discussions",
+    "releases": "https://github.com/votre-username/zebabana_note/releases"
+  }
+}

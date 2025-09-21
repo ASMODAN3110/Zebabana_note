@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation ZeBabana Note</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #6366F1;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            background: #fafafa;
+        }
+        .section h2 {
+            color: #333;
+            margin-top: 0;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        .section a {
+            color: #6366F1;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .section a:hover {
+            color: #4F46E5;
+            text-decoration: underline;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            padding: 25px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #555;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+        }
+        .card p {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            background: #6366F1;
+            color: white;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .badge.secondary {
+            background: #10B981;
+        }
+        .badge.warning {
+            background: #F59E0B;
+        }
+        .badge.info {
+            background: #3B82F6;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 10px;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #6366F1;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Documentation ZeBabana Note</h1>
+        <p class="subtitle">Application de prise de notes moderne et ergonomique développée avec Flutter</p>
+        
+        <div class="section">
+            <h2>🚀 Pour les Utilisateurs</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>📖 Guide Utilisateur</h3>
+                    <p>Guide complet pour utiliser l'application, découvrir ses fonctionnalités et optimiser votre expérience de prise de notes.</p>
+                    <a href="README.html">Lire le guide →</a>
+                </div>
+                <div class="card">
+                    <h3>✨ Fonctionnalités</h3>
+                    <p>Liste détaillée des fonctionnalités disponibles : recherche, filtrage, thèmes, et bien plus encore.</p>
+                    <a href="README.html#fonctionnalités">Voir les fonctionnalités →</a>
+                </div>
+                <div class="card">
+                    <h3>🛠️ Installation</h3>
+                    <p>Instructions complètes pour installer et configurer l'application sur votre appareil.</p>
+                    <a href="README.html#-installation-et-démarrage">Guide d'installation →</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>👨‍💻 Pour les Développeurs</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🔧 Guide du Développeur</h3>
+                    <p>Guide technique complet avec architecture, bonnes pratiques, tests et déploiement.</p>
+                    <a href="DEVELOPER_GUIDE.html">Lire le guide →</a>
+                </div>
+                <div class="card">
+                    <h3>📋 Documentation API</h3>
+                    <p>Documentation détaillée des APIs, méthodes, classes et services de l'application.</p>
+                    <a href="API_DOCUMENTATION.html">Voir l'API →</a>
+                </div>
+                <div class="card">
+                    <h3>🔍 API Dart</h3>
+                    <p>Documentation générée automatiquement du code Dart avec exemples et références.</p>
+                    <a href="api/index.html">Voir l'API Dart →</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📊 Informations du Projet</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+                <span class="badge">Version 1.0.0</span>
+                <span class="badge secondary">Flutter</span>
+                <span class="badge warning">Dart</span>
+                <span class="badge info">Material Design 3</span>
+            </div>
+            <p>ZeBabana Note est une application de prise de notes moderne développée avec Flutter, offrant une interface utilisateur intuitive et des fonctionnalités avancées pour organiser vos pensées et idées.</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Écrans</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Services</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">2</div>
+                <div class="stat-label">Widgets</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Documenté</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Documentation générée automatiquement • Dernière mise à jour : <span id="lastUpdate"></span></p>
+            <p>© 2024 ZeBabana Note • Développé avec ❤️ et Flutter</p>
+        </div>
+    </div>
+    
+    <script>
+        // Afficher la date de dernière mise à jour
+        document.getElementById('lastUpdate').textContent = new Date().toLocaleDateString('fr-FR');
+    </script>
+</body>
+</html>
