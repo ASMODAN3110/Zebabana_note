@@ -1,5 +1,5 @@
 name: zebabana_note
-description: "A new Flutter project."
+description: "An application for note taking"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -44,6 +44,8 @@ dev_dependencies:
     sdk: flutter
   mockito: ^5.4.4
   build_runner: ^2.4.6
+  flutter_launcher_icons: ^0.14.4
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -51,6 +53,23 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/icons/app_icon.png" # Chemin de ton icône (à créer)
+  min_sdk_android: 21 # SDK minimum pour Android
+  web:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+    #background_color: "#hexcode"
+    #theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  # Optionnel : pour icônes adaptatives Android
+  # adaptive_icon_background: "#ffffff"
+  # adaptive_icon_foreground: "assets/icons/icon_foreground.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
